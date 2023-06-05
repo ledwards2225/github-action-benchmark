@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685990728556,
+  "lastUpdate": 1685990743652,
   "repoUrl": "https://github.com/ledwards2225/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -360,6 +360,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 46300,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "committer": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "distinct": true,
+          "id": "087e8defee61290cf0817b5ea1f41cd6f1251174",
+          "message": "and again",
+          "timestamp": "2023-06-05T11:43:27-07:00",
+          "tree_id": "f37a07826e7b94169a80ecf85659293f19975497",
+          "url": "https://github.com/ledwards2225/github-action-benchmark/commit/087e8defee61290cf0817b5ea1f41cd6f1251174"
+        },
+        "date": 1685990743246,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 348.3720930232558,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":215,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 43499,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }
