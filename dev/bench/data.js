@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685991877952,
+  "lastUpdate": 1685991916172,
   "repoUrl": "https://github.com/ledwards2225/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -786,6 +786,42 @@ window.BENCHMARK_DATA = {
             "value": 25720.94926818535,
             "unit": "ns/iter",
             "extra": "iterations: 27261\ncpu: 25720.46880158468 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "committer": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "distinct": true,
+          "id": "4eb20faac3f6466aa1e30f4bac415fd2e0ced610",
+          "message": "summary",
+          "timestamp": "2023-06-05T12:03:57-07:00",
+          "tree_id": "711389ccf82ad3c29c2fd05fef47657b01d54f66",
+          "url": "https://github.com/ledwards2225/github-action-benchmark/commit/4eb20faac3f6466aa1e30f4bac415fd2e0ced610"
+        },
+        "date": 1685991915172,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 215.33738088469266,
+            "unit": "ns/iter",
+            "extra": "iterations: 3267737\ncpu: 215.30009912058406 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 28793.619163104642,
+            "unit": "ns/iter",
+            "extra": "iterations: 24328\ncpu: 28747.920092074964 ns\nthreads: 1"
           }
         ]
       }
