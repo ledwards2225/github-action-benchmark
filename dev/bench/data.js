@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685990675820,
+  "lastUpdate": 1685990690200,
   "repoUrl": "https://github.com/ledwards2225/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -76,6 +76,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000007245328327048085",
             "extra": "mean: 2.3094809650340977 msec\nrounds: 429"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "committer": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "distinct": true,
+          "id": "087e8defee61290cf0817b5ea1f41cd6f1251174",
+          "message": "and again",
+          "timestamp": "2023-06-05T11:43:27-07:00",
+          "tree_id": "f37a07826e7b94169a80ecf85659293f19975497",
+          "url": "https://github.com/ledwards2225/github-action-benchmark/commit/087e8defee61290cf0817b5ea1f41cd6f1251174"
+        },
+        "date": 1685990688739,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 58270.74050541903,
+            "unit": "iter/sec",
+            "range": "stddev: 4.911266520877654e-7",
+            "extra": "mean: 17.161271528838775 usec\nrounds: 39215"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 478.8198329236062,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000010345364774544222",
+            "extra": "mean: 2.08846821129806 msec\nrounds: 478"
           }
         ]
       }
