@@ -48,7 +48,7 @@ inputs:
   summary-always:
     description: 'Leave a job summary with benchmark result comparison'
     required: false
-    default: false
+    default: true
   save-data-file:
     description: 'Save the benchmark data to external file'
     required: false
