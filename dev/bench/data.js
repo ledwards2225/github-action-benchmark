@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685991956096,
+  "lastUpdate": 1685991963570,
   "repoUrl": "https://github.com/ledwards2225/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -642,6 +642,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 43499,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "committer": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "distinct": true,
+          "id": "4eb20faac3f6466aa1e30f4bac415fd2e0ced610",
+          "message": "summary",
+          "timestamp": "2023-06-05T12:03:57-07:00",
+          "tree_id": "711389ccf82ad3c29c2fd05fef47657b01d54f66",
+          "url": "https://github.com/ledwards2225/github-action-benchmark/commit/4eb20faac3f6466aa1e30f4bac415fd2e0ced610"
+        },
+        "date": 1685991963112,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 371.5217391304348,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":207,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 46903,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }
