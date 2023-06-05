@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685990690200,
+  "lastUpdate": 1685990707770,
   "repoUrl": "https://github.com/ledwards2225/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -404,6 +404,38 @@ window.BENCHMARK_DATA = {
             "value": 49.35669285058975,
             "unit": "ns",
             "range": "± 0.008812165120292053"
+          }
+        ]
+      }
+    ],
+    "JMH Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "committer": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "distinct": true,
+          "id": "1e7cc8b42abcdca77e22fe667cbd140bfe8b097a",
+          "message": "testing",
+          "timestamp": "2023-06-05T11:41:02-07:00",
+          "tree_id": "d6f525bf188967936d7565455003e7ebfa866522",
+          "url": "https://github.com/ledwards2225/github-action-benchmark/commit/1e7cc8b42abcdca77e22fe667cbd140bfe8b097a"
+        },
+        "date": 1685990706967,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "value": 1383094327.548233,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1"
           }
         ]
       }
