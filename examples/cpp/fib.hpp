@@ -1,7 +1,7 @@
 #if !defined FIB_HPP_INCLUDED
 #define FIB_HPP_INCLUDED
 
-// testing an arbitrary comment
+// testing an arbitrary comment 2
 
 int fib(int const i) {
   if (i <= 1) {
