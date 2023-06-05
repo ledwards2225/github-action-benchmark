@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685990856572,
+  "lastUpdate": 1685991877952,
   "repoUrl": "https://github.com/ledwards2225/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -574,6 +574,44 @@ window.BENCHMARK_DATA = {
             "range": "±0.54%",
             "unit": "ops/sec",
             "extra": "87 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "committer": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "distinct": true,
+          "id": "4eb20faac3f6466aa1e30f4bac415fd2e0ced610",
+          "message": "summary",
+          "timestamp": "2023-06-05T12:03:57-07:00",
+          "tree_id": "711389ccf82ad3c29c2fd05fef47657b01d54f66",
+          "url": "https://github.com/ledwards2225/github-action-benchmark/commit/4eb20faac3f6466aa1e30f4bac415fd2e0ced610"
+        },
+        "date": 1685991876955,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1152165,
+            "range": "±1.42%",
+            "unit": "ops/sec",
+            "extra": "79 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 9809,
+            "range": "±1.04%",
+            "unit": "ops/sec",
+            "extra": "85 samples"
           }
         ]
       }
