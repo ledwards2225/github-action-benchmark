@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686072564627,
+  "lastUpdate": 1686072573451,
   "repoUrl": "https://github.com/ledwards2225/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -1374,6 +1374,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 39601,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "committer": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "distinct": true,
+          "id": "a9672207c04b3d103a2c03c88c26681f8ae45a34",
+          "message": "going back to original name",
+          "timestamp": "2023-06-06T10:27:56-07:00",
+          "tree_id": "d9e316d6231d213627bae91e3a171738459c1909",
+          "url": "https://github.com/ledwards2225/github-action-benchmark/commit/a9672207c04b3d103a2c03c88c26681f8ae45a34"
+        },
+        "date": 1686072572640,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 295.1127819548872,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":266,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 36900,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }
