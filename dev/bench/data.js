@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686071980148,
+  "lastUpdate": 1686071995050,
   "repoUrl": "https://github.com/ledwards2225/github-action-benchmark",
   "entries": {
     "Go Benchmark": [
@@ -1126,6 +1126,42 @@ window.BENCHMARK_DATA = {
             "value": 319.33193277310926,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":238,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 39601,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "committer": {
+            "email": "l.edwards.d@gmail.com",
+            "name": "ledwards2225",
+            "username": "ledwards2225"
+          },
+          "distinct": true,
+          "id": "fcb59d67c51b501118f90ffbcd5a1c5839d6cc42",
+          "message": "try to change pages url",
+          "timestamp": "2023-06-06T10:18:15-07:00",
+          "tree_id": "cbccca9a70b2ec85ba97a5fba38f68d3fbd9b626",
+          "url": "https://github.com/ledwards2225/github-action-benchmark/commit/fcb59d67c51b501118f90ffbcd5a1c5839d6cc42"
+        },
+        "date": 1686071994580,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 319.4957627118644,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"samples\":10000,\"evals\":236,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           },
           {
             "name": "fib/20",
