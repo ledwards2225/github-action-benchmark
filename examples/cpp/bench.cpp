@@ -18,9 +18,18 @@ static void fib_20(benchmark::State &state) {
   }
 }
 
+static void fib_30(benchmark::State &state) {
+  for (auto _ : state) {
+    int i = 30;
+    benchmark::DoNotOptimize(i);
+    benchmark::DoNotOptimize(fib(i));
+  }
+}
+
 // Register the function as a benchmark
 BENCHMARK(fib_10);
 BENCHMARK(fib_20);
+BENCHMARK(fib_30);
 
 // Run the benchmark
 BENCHMARK_MAIN();
