@@ -29,7 +29,6 @@ static void fib_30(benchmark::State &state) {
 // Register the function as a benchmark
 BENCHMARK(fib_10);
 BENCHMARK(fib_20);
-BENCHMARK(fib_30);
 
 // Run the benchmark
 BENCHMARK_MAIN();
